@@ -1,24 +1,23 @@
-
-function findLongestSS(str) {
-  var si = 0, li = 0;
-  var len = str.length;
-  var last = {};
-  var maxLen = 0;
-  var maxStr;
-  for(var i = 0; i < len; i++) {
-    li = i;
-    if(last[str[i]] === undefined) {
-      last[str[i]] = i;
-    } else {
-      si = last[str[i]] + 1;
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    var maxLen = 0;
+    var sLen = s.length;
+    var charMap = {};
+    var sI = 0, eI = 0;
+    while(eI < sLen) {
+        if(!charMap[s[eI]]) {
+            charMap[s[eI]] = true;
+            if((eI - sI + 1) > maxLen) {
+                maxLen = (eI - sI + 1);
+            }
+            eI += 1;
+        } else {
+            charMap[s[sI]] = false;
+            sI += 1;
+        }
     }
-
-    if(maxLen < (li - si + 1)) {
-      maxStr = str.substring(si, (li + 1));
-      maxLen = (li - si + 1);
-    }
-  }
-  return maxStr;
-}
-
-console.log(findLongestSS('abcabce'))
+    return maxLen;
+};
