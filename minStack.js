@@ -27,7 +27,6 @@ MinStack.prototype.pop = function() {
     if(el !== undefined && el === this.getMin()) {
         this.minStack.pop();
     }
-    console.log(this.minStack);
     return el;
 };
 
