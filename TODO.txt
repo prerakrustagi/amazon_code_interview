@@ -1,40 +1,23 @@
+98 Validate Binary Search Tree 20.9% Medium - DONE
+102 Binary Tree Level Order Traversal 32.7% Easy - DONE
+121 Best Time to Buy and Sell Stock 36.0% Easy - DONE
+139 Word Break 25.2% Medium - Done
+141 Linked List Cycle 37.0% Medium - Done
+146 LRU Cache 15.8% Hard - Done
+155 Min Stack 22.0% Easy - DONE
+200 Number of Islands 27.6% Medium - DONE
+204 Count Primes 24.2% Easy - DONE
+215 Kth Largest Element in an Array 33.1% Medium - Max Heap - DONE
+234 Palindrome Linked List 28.0% Easy - DONE
+186 Reverse Words in a String II 29.1% Medium - DONE
+
 89 Gray Code 36.3% Medium
-
-98 Validate Binary Search Tree 20.9% Medium
-
-102 Binary Tree Level Order Traversal 32.7% Easy
-
-121 Best Time to Buy and Sell Stock 36.0% Easy
-
 126 Word Ladder II 13.6% Hard
 127 Word Ladder 19.6% Medium
 138 Copy List with Random Pointer 26.1% Hard
-
-139 Word Break 25.2% Medium
-
-141 Linked List Cycle 37.0% Medium
-
-146 LRU Cache 15.8% Hard
-
-155 Min Stack 22.0% Easy
-
 167 Two Sum II – Input array is sorted 47.8% Medium
-
-186 Reverse Words in a String II 29.1% Medium
-
 199 Binary Tree Right Side View 34.3% Medium
-
-200 Number of Islands 27.6% Medium
-
-204 Count Primes 24.2% Easy
-
-215 Kth Largest Element in an Array 33.1% Medium - Max Heap
-
-234 Palindrome Linked List 28.0% Easy
-
 235 Lowest Common Ancestor of a Binary Search Tree 37.7% Easy
 236 Lowest Common Ancestor of a Binary Tree 28.8% Medium
-
-
 242 Valid Anagram 41.7% Easy
 297 Serialize and Deserialize Binary Tree 27.8% Hard
